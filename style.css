@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+    align-items: center;
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+#container {
+  background-color: rgb(145, 132, 132);
+  width: 500px;
+  height: 500px;
+  overflow: scroll;
+  border: 3px solid rgb(95, 49, 49);
+}
+li{
+    list-style-type:decimal-leading-zero;
+}
+#todo-item{
+    margin-top: 18px;
+}
+button{
+    font-weight: bold;
+    border: none;
+    margin-left: 3px;
+    height: 34px;
+    cursor: pointer;
+    border-radius: 13%;
+}
+.addBtn{
+    background-color: rgb(45, 110, 45);
+    color: aliceblue;
+}
+.clearBtn{
+    background-color: rgb(98, 40, 40);
+    color: aliceblue;
+}
+input{
+    height: 30px;
+    border-radius: 9%;
+}
